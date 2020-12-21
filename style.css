@@ -3,6 +3,8 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  width: 800px;
+  margin: 0 auto;
 }
 
 header {
@@ -28,4 +30,14 @@ aside {
 
 footer {
   height: 250px;
+}
+
+@media screen and (max-width: 900px) {
+  body, nav, aside {
+    width: 100%;
+  }
+
+  div {
+    flex-direction: column;
+  }
 }

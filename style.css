@@ -40,4 +40,8 @@ footer {
   div {
     flex-direction: column;
   }
+
+  main {
+    order: -1;
+  }
 }
